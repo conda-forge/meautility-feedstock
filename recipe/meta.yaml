@@ -10,7 +10,7 @@ source:
   sha256: "7cd1f723992aa7366f1cbbf8f2843e1f61d8123b459435653860a3b544bc752f"
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv "
 
@@ -19,7 +19,7 @@ requirements:
     - pip
     - python
   run:
-    - matplotlib
+    - matplotlib-base
     - numpy
     - python
     - pyyaml
