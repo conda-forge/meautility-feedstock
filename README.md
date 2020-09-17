@@ -5,7 +5,7 @@ Home: https://github.com/alejoe91/MEAutility
 
 Package license: GPL-3.0-only
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Python package for multi-electrode array (MEA) handling and stimulation.
 
