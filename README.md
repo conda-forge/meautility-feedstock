@@ -120,4 +120,5 @@ Feedstock Maintainers
 =====================
 
 * [@alejoe91](https://github.com/alejoe91/)
+* [@espenhgn](https://github.com/espenhgn/)
 
