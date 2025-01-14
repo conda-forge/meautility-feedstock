@@ -1,13 +1,13 @@
 {% set name = "MEAutility" %}
-{% set version = "1.5.1" %}
+{% set version = "1.5.2" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: de12cc9c1772d3321e941af78e6bfb36cdcb5702a7b1272a852cc95f413bbfcb
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.lower() }}-{{ version }}.tar.gz
+  sha256: 1bc5ba4b066a9e3c7383f43125a43e032552a10de38a5eff1058ed65fa733a1b
 
 build:
   number: 0
